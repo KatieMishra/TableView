@@ -24,6 +24,27 @@ class ViewController: UIViewController, UITableViewDataSource {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func unwindSaveNewToDo(unwindSegue: UIStoryboardSegue) {
+        if let addTaskVC = unwindSegue.source as? AddTaskViewController {
+            if addTaskVC.newTask.count != 0 {
+                toDoList.append(addTaskVC.newTask)
+            }
+        }
+    }
+    
+    @IBAction func unwindCancelNewToDo(unwindSegue: UIStoryboardSegue) {
+        if let addTaskVC = unwindSegue.source as? AddTaskViewController {
+            if addTaskVC.newTask.count != 0 {
+                toDoList.append(addTaskVC.newTask)
+            }
+        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.reloadData()
+        super.viewWillAppear(animated)
+    }
 
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

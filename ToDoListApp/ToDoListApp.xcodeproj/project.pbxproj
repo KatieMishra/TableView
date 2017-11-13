@@ -14,6 +14,7 @@
 		ADED054F1FA392C60051F4C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADED054D1FA392C60051F4C2 /* LaunchScreen.storyboard */; };
 		ADED055A1FA392C60051F4C2 /* ToDoListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED05591FA392C60051F4C2 /* ToDoListAppTests.swift */; };
 		ADED05651FA392C60051F4C2 /* ToDoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADED05641FA392C60051F4C2 /* ToDoListAppUITests.swift */; };
+		ADF7C4B81FBA29CC00AFB3F3 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF7C4B71FBA29CC00AFB3F3 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		ADED05601FA392C60051F4C2 /* ToDoListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADED05641FA392C60051F4C2 /* ToDoListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListAppUITests.swift; sourceTree = "<group>"; };
 		ADED05661FA392C60051F4C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF7C4B71FBA29CC00AFB3F3 /* AddTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				ADED05441FA392C60051F4C2 /* AppDelegate.swift */,
 				ADED05461FA392C60051F4C2 /* ViewController.swift */,
 				ADED05481FA392C60051F4C2 /* Main.storyboard */,
+				ADF7C4B71FBA29CC00AFB3F3 /* AddTaskViewController.swift */,
 				ADED054B1FA392C60051F4C2 /* Assets.xcassets */,
 				ADED054D1FA392C60051F4C2 /* LaunchScreen.storyboard */,
 				ADED05501FA392C60051F4C2 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADED05471FA392C60051F4C2 /* ViewController.swift in Sources */,
+				ADF7C4B81FBA29CC00AFB3F3 /* AddTaskViewController.swift in Sources */,
 				ADED05451FA392C60051F4C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
